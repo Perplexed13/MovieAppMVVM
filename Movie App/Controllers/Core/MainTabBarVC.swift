@@ -23,10 +23,10 @@ class MainTabBarVC: UITabBarController {
         v3.tabBarItem.image = UIImage(systemName: "bell")
         v4.tabBarItem.image = UIImage(systemName: "arrow.down")
         
-        //v1.title = "Home"
-        //v2.title = "Search"
-        //v3.title = "Coming Soon"
-        //v4.title = "Downloads"
+        v1.title = "Home"
+        v2.title = "Search"
+        v3.title = "Coming Soon"
+        v4.title = "Downloads"
         
         
         tabBar.tintColor = .label
